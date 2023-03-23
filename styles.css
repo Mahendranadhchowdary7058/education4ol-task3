@@ -1,0 +1,72 @@
+:root{
+    --primary:#64babb;
+    --secondary: #f0fafb;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.head__container{
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary);
+}
+
+.jobs__container{
+    background-color: var(--secondary);
+    padding: 50px;
+}
+
+.job_wrapper{
+    background-color: white;
+    padding: 15px 20px;
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 #64b9bb36, 0 6px 20px 0 #64b9bb36;
+    border-left: 5px solid var(--primary);
+}
+
+.job_logo_wrapper{
+    width: fit-content;
+    display: inline;
+}
+
+.job_logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.company_name{
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.role_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub_text{
+    font-size: 14px;
+    color: rgb(158, 156, 156);
+}
+
+.tech_tile{
+    width: fit-content;
+    padding: 3px 10px;
+    background-color: var(--secondary);
+    color:var(--primary);
+    margin: auto 2px;
+}
+
+@media only screen and (max-width: 860px) {
+    .job_logo{
+        margin-top: -50px;
+    }
+    .tech_wrapper{
+        margin: 10px 0;
+    }
+}
